@@ -10,18 +10,18 @@ export default function Hero() {
           {/* Left side: text */}
           <div>
             <div className="inline-flex flex-wrap items-center gap-2 mb-4">
-              <Badge>Campaign Hub</Badge>
+              <Badge>Repatriation Campaign</Badge>
               <Badge>Verified Sources</Badge>
-              <Badge>Peace & Due Process</Badge>
+              <Badge>Peaceful Civic Action</Badge>
             </div>
 
             <h1 className="text-[clamp(28px,6vw,56px)] font-extrabold leading-tight text-white">
-              International campaign Justice for <span className="text-rose-500">Yasin Malik</span>
+              International campaign to bring back remains of <span className="text-rose-500">Maqbool Bhat</span>
             </h1>
 
             <p className="mt-4 text-white/80 text-lg max-w-xl">
-              A modern archive of his life, diplomatic engagements, media
-              coverage, and resources—paired with actions you can take today.
+             A modern archive of his life and legacy—paired with verified documentation and peaceful actions 
+             to support the return of his mortal remains to Kashmir.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -44,7 +44,7 @@ export default function Hero() {
           <div className="relative lg:justify-self-end">
             <div className="mx-auto lg:mx-0 w-full max-w-[560px] aspect-[4/3] rounded-3xl overflow-hidden border border-white/10 bg-white/5">
               <img
-                src="https://media.gettyimages.com/id/468911758/photo/srinagar-india-kashmiri-separatist-leader-and-jklf-chairman-yasin-malik-addressing-press.jpg?s=612x612&w=0&k=20&c=MyAy1F1psy6OER0ToMOGzgJWWim56qLuCvbGHQa_Qwg="
+                src="mb hero.jpg"
                 alt="Portrait"
                 loading="lazy"
                 className="h-full w-full object-cover object-left"

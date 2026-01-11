@@ -16,17 +16,17 @@ export default function Home() {
           <Card className="p-6">
           <h3 className="text-xl font-semibold">Textual Biography</h3>
           <p className="mt-2 text-white/80">
-            Mohammad Yasin Malik (born 1966, Srinagar) grew from a teenage student activist into a leading 
-            figure of the JKLF, shaped by early protests, repeated arrests, and years of incarceration that 
-            included injury and an open-heart surgery while in custody. Emerging from that period, he 
-            publicly renounced armed struggle in 1994 and committed himself to non-violent political action,
-             community organising, and humanitarian relief, while engaging widely with civil society, 
-             universities, and policy forums to advocate a peaceful, rights-based resolution for Jammu & 
-             Kashmir. Despite this shift, he faced ongoing detentions, solitary confinement, and multiple 
-             legal cases that repeatedly disrupted his political and social work. Since 2019 he has been 
-             held in Tihar Jail; in 2022 he received a life sentence in an NIA case, and the agency has 
-             appealed to seek conversion of that sentence to the death penalty. His supporters emphasise 
-             due process, medical needs, and international humanitarian concern.
+            Maqbool Bhat (1938–1984) emerged from a politically turbulent Kashmir as a leading nationalist 
+            thinker and organiser, whose activism evolved from student politics into underground resistance. 
+            Educated in history, political science, and Urdu literature, he became deeply involved with the 
+            Plebiscite Front before founding the National Liberation Front (NLF), laying the ideological and 
+            organisational foundations for what later became the Jammu Kashmir Liberation Front (JKLF). His 
+            life was marked by repeated arrests, exile, imprisonment in both India and Pakistan, two death 
+            sentences, and a dramatic prison escape. Despite limited external support and severe repression, 
+            he remained committed to the principle of Kashmiri self-determination. In 1984, after years on 
+            death row, he was executed in Tihar Jail, an act that transformed him into a lasting symbol of 
+            resistance. His legacy continues to shape Kashmiri political discourse, where he is remembered 
+            as Baba-e-Qaum—the Father of the Nation of Kashmir.
           </p>
           <div className="mt-4">
             <Button to="/biography#bio">Read more</Button>
@@ -39,11 +39,11 @@ export default function Home() {
       </Section>
 
       <NumbersBanner
-        bg="https://media.gettyimages.com/id/3018449/photo/indian-policemen-arrest-yasin-malik-the-chairman-of-jammu-and-kashmir-libration-front-and-some.jpg?s=612x612&w=0&k=20&c=KY6-tAxtR8wp26ugbOwdzcNFXT9RCoUq9I4lGyS6i7k=" // or any URL
+        bg="public/pictures/mb arrest pak.jpg" // or any URL
         title=""
         targets={{
         petitions: 12500,                // Petition signs
-        daysInJail: daysSince("2019-02-22"), // Auto-updating days in jail
+        daysInJail: daysSince("1984-02-11"), // Auto-updating days in jail
         fabricatedCases: 5,              // Fabricated cases
       }}
       />

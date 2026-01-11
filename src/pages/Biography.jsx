@@ -1,207 +1,196 @@
 import { Section } from "../components/ui.jsx";
 
 /**
- * Biography Page: Mohammad Yasin Malik
+ * Biography Page: Maqbool Bhat
  *
- * - Self‑contained React component with semantic sections and anchors
+ * - Self-contained React component with semantic sections and anchors
  * - Minimal styling so it fits into varied design systems (Tailwind/Bootstrap/plain CSS)
- * - Uses CSS utility classes if available (bg-neutral, text-muted, etc.),
- *   but will gracefully degrade with default browser styles.
+ * - Uses utility classes if available, but degrades gracefully with default browser styles.
  */
 
 export default function Bio() {
   return (
-    <Section title="Muhammad Yasin Malik" kicker="Biography" id="bio">
+    <Section title="Maqbool Bhat" kicker="Biography" id="bio">
       {/* Page Header */}
       <header className="mb-10">
         <p className="mt-2 text-base opacity-80">
-          Born: <strong>3 April 1966</strong>, Maisuma Bazar (near Budshah Chowk), Srinagar, Jammu & Kashmir.
+          Born: <strong>18 February 1938</strong>, Trehgam, Kashmir Valley (then Princely State of Jammu &amp; Kashmir).
+          <br />
+          Died: <strong>11 February 1984</strong>, executed in Tihar Jail, New Delhi.
         </p>
+
         <div className="mt-4 text-sm opacity-70">
-          <span className="inline-block mr-4">Residence: Maisuma, Srinagar</span>
-          <span className="inline-block mr-4">Parents: Ghulam Qadir Malik (late)</span>
-          <span className="inline-block">Age: 59</span>
+          <span className="inline-block mr-4">Also known as: “Baba-e-Qaum” (Father of the Nation of Kashmir)</span>
+          <span className="inline-block mr-4">Father: Ghulam Qadir Bhat</span>
+          <span className="inline-block">Organisation: Founder of NLF (precursor to JKLF)</span>
         </div>
       </header>
 
       {/* Quick Navigation */}
       <nav aria-label="Section navigation" className="mb-8 border-l-4 pl-4">
         <ul className="list-disc ml-4 space-y-1">
-          <li><a href="#early-life">Early Life & Family</a></li>
-          <li><a href="#catalyst-1980">Catalyst Event (1980)</a></li>
-          <li><a href="#student-activism">Student Activism & First Arrests (1984–1987)</a></li>
-          <li><a href="#hajy-jklf">HAJY Group & JKLF (Late 1980s–1994)</a></li>
-          <li><a href="#ceasefire-1994">Ceasefire & Shift to Non‑Violence (1994)</a></li>
-          <li><a href="#detentions-post94">Detentions & Attempts on Life (Post‑1994)</a></li>
-          <li><a href="#intl-engagements">International Engagements & Lectures</a></li>
-          <li><a href="#arrests-1999-2002">Arrests 1999–2002</a></li>
-          <li><a href="#campaigns-2003-2008">Signature Campaign & Safr‑e‑Azadi (2003–2008)</a></li>
-          <li><a href="#humanitarian">Humanitarian & Social Work</a></li>
-          <li><a href="#dialogue-meetings">Dialogue & Meetings with Leaders</a></li>
-          <li><a href="#personal-life">Personal Life</a></li>
-          <li><a href="#jrl">Joint Resistance Leadership (2015)</a></li>
-          <li><a href="#custody-2014-2019">Custody (2014–2019)</a></li>
-          <li><a href="#arrest-2019">Arrest, NIA Cases & Conviction (2019–2022)</a></li>
-          <li><a href="#appeal">Current Status & Appeals</a></li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#early-life">Early Life &amp; Education</a></li>
+          <li><a href="#political-awakening">Political Awakening (1950s)</a></li>
+          <li><a href="#pakistan-years">Pakistan Years: Studies, Journalism &amp; Elections (1958–1964)</a></li>
+          <li><a href="#plebiscite-front-1965">Azad Kashmir Plebiscite Front &amp; Suchetgarh Oath (1965)</a></li>
+          <li><a href="#nlf">National Liberation Front (NLF)</a></li>
+          <li><a href="#first-reentry">First Re-entry &amp; First Death Sentence (1966–1968)</a></li>
+          <li><a href="#escape-1968">Escape &amp; Return (Dec 1968–1969)</a></li>
+          <li><a href="#ganga-hijacking">Ganga Hijacking &amp; Aftermath (1971)</a></li>
+          <li><a href="#second-reentry">Second Re-entry &amp; Second Death Sentence (1976)</a></li>
+          <li><a href="#jklf">JKLF Formation in Exile (1977)</a></li>
+          <li><a href="#execution">Execution (1984)</a></li>
+          <li><a href="#legacy">Legacy</a></li>
         </ul>
       </nav>
 
       {/* Content Sections */}
+      <section id="overview" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Overview</h2>
+        <p>
+          Maqbool Bhat (18 February 1938 – 11 February 1984) was a Kashmiri nationalist and separatist leader who founded
+          the <strong>National Liberation Front (NLF)</strong>, an underground organisation that later became associated
+          with the ideological and organisational lineage of the <strong>Jammu Kashmir Liberation Front (JKLF)</strong>.
+          He was arrested in Indian-administered Kashmir, sentenced to death twice, and ultimately executed in
+          <strong> Tihar Jail</strong>, New Delhi, on <strong>11 February 1984</strong>.
+        </p>
+      </section>
+
       <section id="early-life" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Early Life & Family</h2>
+        <h2 className="text-2xl font-bold mb-2">Early Life &amp; Education</h2>
         <p>
-          Born in a modest Kashmiri household in <strong>Maisuma Bazar</strong> near Budshah Chowk, Srinagar, Yasin
-          Malik is the only brother to three sisters. He continues to live in the same family house with his mother and
-          elder sister; his father <strong>Ghulam Qadir Malik</strong> passed away in <strong>2011</strong>.
+          Muhammad Maqbool Bhat was born in <strong>Trehgam</strong> in the Kashmir Valley to a Kashmiri Muslim family. His
+          father was <strong>Ghulam Qadir Bhat</strong>. His mother died when he was eleven years old, after which his
+          father remarried. After local schooling, he studied at <strong>St Joseph’s School and College, Baramulla</strong>,
+          and graduated with a <strong>BA in History and Political Science</strong> around <strong>1957</strong>.
         </p>
       </section>
 
-      <section id="catalyst-1980" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Catalyst Event (26 July 1980)</h2>
+      <section id="political-awakening" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Political Awakening (1950s)</h2>
         <p>
-          As a school student, he witnessed a violent incident in <strong>Lal Chowk</strong> where men in plain clothes
-          associated with the army damaged vehicles and public property while attempting to free a detained driver. The
-          ensuing mayhem reportedly led to the deaths of six civilians. Malik narrowly escaped harm by hiding under the
-          reception counter at the nearby KMD bus stand. This event profoundly shaped his political consciousness.
+          During his college years, Bhat became involved with student activities linked to the{" "}
+          <strong>Plebiscite Front</strong>, an organisation founded by <strong>Mirza Afzal Beg</strong> during Sheikh
+          Abdullah’s imprisonment for canvassing for Kashmiri independence. After Sheikh Abdullah’s release in{" "}
+          <strong>December 1957</strong>, political agitation followed; his subsequent <strong>re-arrest in April 1958</strong>{" "}
+          coincided with a crackdown on activists, including student networks. Under these pressures, Bhat left for Pakistan
+          in <strong>August 1958</strong>.
         </p>
       </section>
 
-      <section id="student-activism" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Student Activism & First Arrests (1984–1987)</h2>
-        <h3 className="text-xl font-semibold mb-1">Agitation after Maqbool Bhat’s Execution (1984)</h3>
+      <section id="pakistan-years" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Pakistan Years: Studies, Journalism &amp; Elections (1958–1964)</h2>
         <p>
-          Following the <strong>11 February 1984</strong> execution of <strong>Muhammad Maqbool Bhat</strong> in Tihar Jail,
-          Malik and peers protested. He was detained and beaten, an experience that reinforced his resolve.
-        </p>
-        <h3 className="text-xl font-semibold mb-1">Organising & Literature (1986)</h3>
-        <p>
-          By <strong>1986</strong>, he was a founding member and <strong>General Secretary</strong> of a student
-          organisation advocating debate on Jammu & Kashmir’s political status. He organised marches and distributed
-          literature, leading to a <strong>20‑day imprisonment</strong> on charges of handling pro‑freedom material.
-        </p>
-        <h3 className="text-xl font-semibold mb-1">MUF & Detention under PSA (1987)</h3>
-        <p>
-          During the <strong>1987</strong> state elections, he supported the <strong>Muslim United Front (MUF)</strong> and was
-          arrested, interrogated, and incarcerated for about a year under the <strong>Public Safety Act (PSA)</strong>.
+          In Pakistan, Bhat enrolled at the <strong>University of Peshawar</strong> and completed an{" "}
+          <strong>MA in Urdu Literature</strong>. He also worked for a period as a journalist for a local newspaper.
+          In <strong>1961</strong>, he contested the <strong>Basic Democracies</strong> elections introduced under the
+          military regime of President Ayub Khan and won the Kashmiri diaspora seat from Peshawar. The elected government
+          in Azad Kashmir lasted until <strong>1964</strong>, when Pakistan forced its resignation.
         </p>
       </section>
 
-      <section id="hajy-jklf" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">HAJY Group & JKLF (Late 1980s–1994)</h2>
+      <section id="plebiscite-front-1965" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Azad Kashmir Plebiscite Front &amp; Suchetgarh Oath (1965)</h2>
         <p>
-          Post‑release, he joined the <strong>Jammu Kashmir Liberation Front (JKLF)</strong>, later becoming its Chairman.
-          Along with <strong>Hameed Sheikh</strong>, <strong>Ashfaq Majeed Wani</strong>, and <strong>Javid Ahmed Mir</strong>,
-          he formed the <strong>HAJY</strong> group. Frustrated with political intransigence, the group embraced an armed
-          insurgency aimed at internationalising the Kashmir issue. Hameed and Ashfaq were killed; Malik was arrested,
-          tortured, and imprisoned until <strong>1994</strong>, undergoing open‑heart surgery during incarceration.
+          In <strong>April 1965</strong>, the <strong>Azad Kashmir Plebiscite Front</strong> was formed in Muzaffarabad.
+          Maqbool Bhat was appointed <strong>Publicity Secretary</strong>, drawing on his journalistic background.
+          During the same year, activists travelled to a location near <strong>Suchetgarh</strong> and took an oath—often
+          described as a pledge of exclusive commitment to the liberation of Jammu and Kashmir—bringing symbolic soil from
+          Indian-administered Kashmir.
         </p>
       </section>
 
-      <section id="ceasefire-1994" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Ceasefire & Shift to Non‑Violence (1994)</h2>
+      <section id="nlf" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">National Liberation Front (NLF)</h2>
         <p>
-          Influenced by global figures of non‑violence and urged by civil society and diplomatic missions, Malik
-          announced a <strong>unilateral ceasefire</strong> in <strong>1994</strong>. Despite minimal governmental response, he
-          and JKLF have continued to advocate non‑violent political struggle. Since then, over <strong>600</strong> JKLF
-          members have reportedly been killed.
+          Alongside associates—most notably <strong>Amanullah Khan</strong>—Bhat supported the creation of an armed wing.
+          When the proposal did not gain majority backing within the Plebiscite Front, an underground organisation,
+          the <strong>National Liberation Front (NLF)</strong>, was established in <strong>1965</strong>. The NLF was
+          organised with political, financial, and armed components; Bhat was tasked with overall coordination. The
+          organisation trained cadres and aimed to create conditions in which the people of Jammu and Kashmir could demand
+          self-determination.
         </p>
       </section>
 
-      <section id="detentions-post94" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Detentions & Attempts on Life (Post‑1994)</h2>
+      <section id="first-reentry" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">First Re-entry &amp; First Death Sentence (1966–1968)</h2>
         <p>
-          Malik’s post‑1994 years include repeated detentions, solitary confinement (including a two‑year stretch), and
-          six assassination attempts—three allegedly by security forces and three by militants opposed to his ceasefire.
+          After months of recruitment and training, NLF groups crossed into Indian-administered Kashmir on{" "}
+          <strong>10 June 1966</strong>. Bhat’s group focused on recruitment and establishing underground cells, while another
+          wing trained recruits in sabotage. The operation was compromised near Srinagar in <strong>September 1966</strong>.
+          During the episode, a CID police inspector named <strong>Amar Chand</strong> was killed. Following a search and a
+          firefight near Handwara, Bhat was captured and tried. In <strong>September 1968</strong>, a Srinagar court issued
+          a <strong>death sentence</strong>.
         </p>
       </section>
 
-      <section id="intl-engagements" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">International Engagements & Lectures</h2>
+      <section id="escape-1968" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Escape &amp; Return (Dec 1968–1969)</h2>
         <p>
-          During medical trips to the <strong>United States</strong>, he combined treatment with advocacy, meeting officials
-          and speaking at policy forums. He has addressed conferences and lectured at universities including
-          <em>Harvard</em>, <em>Yale</em>, <em>Oxford</em>, <em>JNU</em>, and <em>St. Stephen’s College</em>, and appeared on
-          BBC’s <em>Hard Talk</em> with Tim Sebastian.
+          In <strong>December 1968</strong>, Maqbool Bhat escaped from prison by tunnelling out of the jail complex along
+          with fellow inmates. He returned to Azad Kashmir in <strong>January 1969</strong>, an escape that significantly
+          raised his profile among militant circles. However, Pakistani authorities viewed the escape with suspicion;
+          he and colleagues were detained and interrogated for months, and he remained under suspicion long afterwards.
         </p>
       </section>
 
-      <section id="arrests-1999-2002" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Arrests 1999–2002</h2>
+      <section id="ganga-hijacking" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Ganga Hijacking &amp; Aftermath (1971)</h2>
         <p>
-          In <strong>October 1999</strong>, after campaigning for an election boycott, he was detained under the PSA and
-          lodged in <strong>Jodhpur Jail</strong>. He was later re‑arrested on <strong>26 March 2002</strong> under
-          <strong>POTA</strong>, released after nearly a year of detention and alleged torture.
+          In an effort to draw international attention to the Kashmir issue, NLF-linked militants carried out the hijacking
+          of an Indian Airlines aircraft named <strong>Ganga</strong> on <strong>30 January 1971</strong>. The hijackers
+          demanded the release of NLF prisoners, landed the plane in Lahore, and later burned the aircraft. Political
+          fallout was swift: Pakistan faced international and regional consequences, and authorities arrested the hijackers
+          and many alleged collaborators. Maqbool Bhat and numerous NLF activists were detained in the sweeping crackdown
+          that followed.
         </p>
       </section>
 
-      <section id="campaigns-2003-2008" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Signature Campaign & Safr‑e‑Azadi (2003–2008)</h2>
+      <section id="second-reentry" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Second Re-entry &amp; Second Death Sentence (1976)</h2>
         <p>
-          JKLF launched an <strong>18‑month signature campaign</strong> in <strong>June 2003</strong> and a
-          <strong>116‑day</strong> "<strong>Safr‑e‑Azadi</strong>" in <strong>2006</strong>, covering thousands of localities.
-          About <strong>1.5 million</strong> signatures called for Kashmiri participation in the peace process. These
-          peaceful mobilisations contributed to wider non‑violent protest waves in <strong>2008</strong>.
+          In <strong>May 1976</strong>, amid renewed agitation—particularly student protest against the{" "}
+          <strong>Indira–Sheikh Accord</strong>—Bhat re-entered Jammu and Kashmir. He was soon rearrested following a bank
+          robbery attempt in Kupwara during which a bank employee was killed. He received a{" "}
+          <strong>second death sentence</strong>.
         </p>
       </section>
 
-      <section id="humanitarian" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Humanitarian & Social Work</h2>
+      <section id="jklf" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">JKLF Formation in Exile (1977)</h2>
         <p>
-          Malik and JKLF participated in relief efforts after disasters including the <strong>2005 earthquake</strong> and
-          provided aid in Uri, Tangdar, and Kupwara, among other places. He also contributed to blood donation drives
-          (e.g., post‑9/11 in New York) and engaged with the World Social Forum on themes of social justice and
-          self‑determination.
+          Bhat’s arrest weakened the NLF’s operational capacity. In exile, organisational restructuring continued: the UK
+          chapter of the Plebiscite Front was converted into the <strong>Jammu and Kashmir Liberation Front (JKLF)</strong>{" "}
+          in <strong>May 1977</strong>, with an armed wing later described as the National Liberation Army. Various efforts
+          were made by different groups to secure Bhat’s release, including high-profile actions and attempted operations
+          in subsequent years.
         </p>
       </section>
 
-      <section id="dialogue-meetings" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Dialogue & Meetings with Leaders</h2>
+      <section id="execution" className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Execution (1984)</h2>
         <p>
-          Throughout the 2000s, he met leaders across India and Pakistan—including prime ministers and senior political
-          figures—during phases of dialogue.
+          In early February 1984, pressure intensified around Bhat’s case. His clemency petition was rejected, and he was
+          executed by hanging in <strong>Tihar Jail, New Delhi</strong>, on <strong>11 February 1984</strong>, amid heavy
+          security. Reports described him as calm and composed as he was taken to the gallows. His body was buried within
+          the Tihar Jail premises, contrary to the wishes of his family and supporters.
         </p>
       </section>
 
-      <section id="personal-life" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Personal Life</h2>
+      <section id="legacy" className="mb-12">
+        <h2 className="text-2xl font-bold mb-2">Legacy</h2>
         <p>
-          In <strong>January 2009</strong>, he married <strong>Mushaal Mullick</strong>, a Pakistani painter. They have a
-          daughter, <strong>Raziya Sultana</strong>. His passport was confiscated in <strong>2013</strong>, restricting family
-          reunions and cross‑border travel.
+          Bhat’s execution triggered protests and shutdowns in parts of Kashmir, including extended closures in Trehgam
+          and deserted streets in Srinagar. Supporters and several political voices described the hanging as politically
+          motivated, while the state framed it as a hardening line against political violence. In the years that followed,
+          JKLF’s movement expanded, and demands continued for the return of his mortal remains from Tihar Jail.
         </p>
-      </section>
-
-      <section id="jrl" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Joint Resistance Leadership (2015)</h2>
-        <p>
-          In <strong>2015</strong>, he helped form the <strong>Joint Resistance Leadership (JRL)</strong> with Syed Ali Shah
-          Geelani and Mirwaiz Umar Farooq, coordinating protest strategies.
-        </p>
-      </section>
-
-      <section id="custody-2014-2019" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Custody (2014–2019)</h2>
-        <p>
-          During the first Modi government (2014–2019), he was frequently detained and under custody for extended
-          periods. Estimates suggest arrests or detentions numbering in the hundreds since 1994.
-        </p>
-      </section>
-
-      <section id="arrest-2019" className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Arrest, NIA Cases & Conviction (2019–2022)</h2>
-        <p>
-          Arrested on <strong>22 February 2019</strong> and booked under the PSA on <strong>7 March</strong>, he was moved from
-          Kot Bhalwal Jail to NIA custody in New Delhi in May 2019. After an <strong>indefinite hunger strike</strong>, he was
-          shifted to <strong>Tihar Jail</strong>. In <strong>May 2022</strong>, he was convicted and sentenced to life
-          imprisonment in NIA cases; additional older cases were reportedly re‑opened.
-        </p>
-      </section>
-
-      <section id="appeal" className="mb-12">
-        <h2 className="text-2xl font-bold mb-2">Current Status & Appeals</h2>
-        <p>
-          He remains in <strong>solitary confinement</strong> at Tihar, with ongoing legal proceedings and appeals. Supporters
-          urge international organisations and governments to engage on humanitarian and due‑process grounds.
+        <p className="mt-3">
+          In <strong>1989</strong>, JKLF launched a militant movement in Kashmir, frequently invoking Maqbool Bhat’s
+          symbolism and legacy. On <strong>4 November 1989</strong>, JKLF militants allegedly killed Judge{" "}
+          <strong>Neelkanth Ganjoo</strong>, who had presided over the Amar Chand murder trial in which Bhat received the
+          death sentence.
         </p>
       </section>
 

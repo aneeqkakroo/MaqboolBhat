@@ -5,7 +5,7 @@ import { Container } from "./ui.jsx";
 
 const navItems = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About Yasin Malik" },
+  { to: "/about", label: "About Maqbool Bhat" },
 
   // Engagements dropdown
   {
@@ -52,14 +52,14 @@ export default function Navbar() {
           aria-label="Go to home"
         >
           <img
-            src="/YM.png"
-            alt="Justice for Yasin Malik logo"
-            width="30"
-            height="30"
+            src="/MB.png"
+            alt="Maqbool Bhat logo"
+            width="50"
+            height="50"
             className="rounded-lg"
             style={{ filter: "brightness(0.9) sepia(0.3) saturate(2) hue-rotate(-20deg)" }}
           />
-          <div className="font-bold text-white">Justice for Yasin Malik</div>
+          <div className="font-bold text-white">Maqbool Bhat Shaheed</div>
         </button>
 
         {/* Desktop Nav */}
