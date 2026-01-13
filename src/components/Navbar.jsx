@@ -7,16 +7,6 @@ const navItems = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Maqbool Bhat" },
 
-  // Engagements dropdown
-  {
-    label: "Engagements",
-    children: [
-      { to: "/engagements/political", label: "Political Engagement" },
-      { to: "/engagements/diplomatic", label: "Diplomatic Engagement" },
-      { to: "/engagements/humanitarian", label: "Humanitarian Engagement" },
-    ],
-  },
-
   // Media / Updates dropdown (new)
   {
     label: "Media / Updates",

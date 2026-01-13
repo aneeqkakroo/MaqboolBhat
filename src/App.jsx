@@ -7,9 +7,6 @@ import { Analytics } from '@vercel/analytics/react';
 // Pages
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Political from "./pages/Political.jsx";
-import Diplomatic from "./pages/Diplomatic.jsx";
-import Social from "./pages/Social.jsx";
 import Media from "./pages/Media.jsx";
 import Resources from "./pages/Resources.jsx";
 import GetInvolved from "./pages/GetInvolved.jsx";
@@ -39,9 +36,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/engagements/political" element={<Political />} />
-          <Route path="/engagements/humanitarian" element={<Social />} />
-          <Route path="/engagements/diplomatic" element={<Diplomatic />} />
           <Route path="/media" element={<Media />} />
           <Route path="/updates" element={<LatestUpdates />} />
           <Route path="/socialmedia" element={<SocialMedia />} />

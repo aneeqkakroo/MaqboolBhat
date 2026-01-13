@@ -44,7 +44,7 @@ export default function Hero() {
           <div className="relative lg:justify-self-end">
             <div className="mx-auto lg:mx-0 w-full max-w-[560px] aspect-[4/3] rounded-3xl overflow-hidden border border-white/10 bg-white/5">
               <img
-                src="mb hero.jpg"
+                src="public/pictures/mb ai1.jpg"
                 alt="Portrait"
                 loading="lazy"
                 className="h-full w-full object-cover object-left"

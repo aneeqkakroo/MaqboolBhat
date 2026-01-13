@@ -111,12 +111,6 @@ export default function GetInvolved() {
       />
       <JoinUsCard />
     </Section>
-    {/*MP Finder*/}
-    <Section title="Email your MP 🇬🇧" kicker="Campaign" id="MP">
-    <div className=" bg-black-200">
-      <PostcodeToMP />
-    </div>
-    </Section>
     </>
   );
 }

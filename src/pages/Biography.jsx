@@ -49,10 +49,10 @@ export default function Bio() {
       <section id="overview" className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Overview</h2>
         <p>
-          Maqbool Bhat (18 February 1938 – 11 February 1984) was a Kashmiri nationalist and separatist leader who founded
+          Maqbool Bhat (18 February 1938 – 11 February 1984) was a Kashmiri nationalist leader who founded
           the <strong>National Liberation Front (NLF)</strong>, an underground organisation that later became associated
           with the ideological and organisational lineage of the <strong>Jammu Kashmir Liberation Front (JKLF)</strong>.
-          He was arrested in Indian-administered Kashmir, sentenced to death twice, and ultimately executed in
+          He was arrested in Indian-occupied Kashmir, sentenced to death twice, and ultimately executed and burried in
           <strong> Tihar Jail</strong>, New Delhi, on <strong>11 February 1984</strong>.
         </p>
       </section>

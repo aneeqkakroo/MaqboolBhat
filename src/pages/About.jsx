@@ -54,10 +54,10 @@ export default function About() {
       <h4 className="text-lg font-semibold text-white mb-4">Featured Documents</h4>
       <div className="space-y-3 text-white/80 text-sm">
         <a href="#" className="block hover:underline">
-          1994 Statement on Non-Violence (PDF)
+          Shaur-e-Farda (PDF)
         </a>
         <a href="#" className="block hover:underline">
-          Major Interviews & Profiles (1999–2012)
+          Escape from Srinagar Jail (PDF)
         </a>
       </div>
     </Card>
@@ -73,12 +73,35 @@ export default function About() {
   </p>
 </Card>
 
+<Card className="!p-0 overflow-hidden">
+  <div className="grid grid-rows-[auto_1fr]">
+    {/* Title */}
+    <h4 className="px-4 pt-4 pb-2 text-lg font-semibold text-white">
+      Audio Speech of Maqbool Bhat?
+    </h4>
+
+    {/* SoundCloud Embed */}
+    <div className="w-full h-full">
+      <iframe
+        width="100%"
+        height="100%"
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2246792744&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        className="!rounded-none !border-0"
+      />
+    </div>
+  </div>
+</Card>
+
+
    <Card className="!p-0 overflow-hidden">
   <div className="grid grid-rows-[auto_1fr] h-[380px]">
     <h4 className="px-4 pt-4 pb-2 text-lg font-semibold text-white">
       Who is Maqbool Bhat?
     </h4>
-    <xTubeEmbed
+    <YouTubeEmbed
       url="https://youtu.be/543eB6Qa5QM"
       title="Che of Kashmir"
       cover
@@ -93,8 +116,8 @@ export default function About() {
     <Card className="p-6">
       <h4 className="text-lg font-semibold text-white mb-4">Related Links</h4>
       <ul className="list-disc ml-4 text-white/80 text-sm space-y-1">
-        <li><a href="#" className="hover:underline">BBC Hard Talk Interview</a></li>
-        <li><a href="#" className="hover:underline">Oxford University Lecture</a></li>
+        <li><a href="#" className="hover:underline">Books Written on Maqbool Bhat Shaheed</a></li>
+        <li><a href="#" className="hover:underline">Media Archives of Maqbool Bhat Shaheed</a></li>
       </ul>
     </Card>
   </div>
