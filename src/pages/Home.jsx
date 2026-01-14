@@ -39,7 +39,7 @@ export default function Home() {
       </Section>
 
       <NumbersBanner
-        bg="public/pictures/mb arrest pak.jpg" // or any URL
+        bg="/pictures/mb arrest pak.jpg" // or any URL
         title=""
         targets={{
         petitions: 12500,                // Petition signs
