@@ -11,7 +11,7 @@ export default function Hero() {
           <div>
             <div className="inline-flex flex-wrap items-center gap-2 mb-4">
               <Badge>Repatriation Campaign</Badge>
-              <Badge>Verified Sources</Badge>
+              <Badge>Online Repository</Badge>
               <Badge>Peaceful Civic Action</Badge>
             </div>
 

@@ -81,8 +81,8 @@ export default function NumbersBanner({
 
   const items = useMemo(
     () => [
-      { label: "Petition signs for demanding Justice", value: targets.petitions, suffix: "+" },
-      { label: "Days of illgal incarceration", value: targets.daysInJail },
+      { label: "Petition signs for demanding remains of Maqbool Bhat Shaheed", value: targets.petitions, suffix: "+" },
+      { label: "Days since Maqbool Bhat’s remains have been unlawfully withheld", value: targets.daysInJail },
       { label: "Fabricated politicaly motivated cases", value: targets.fabricatedCases },
     ],
     [targets]

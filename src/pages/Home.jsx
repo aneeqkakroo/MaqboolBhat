@@ -1,4 +1,5 @@
 import Hero from "../components/Hero.jsx";
+import Hero2 from "../components/Hero2.jsx";
 import { Section, Card, Button} from "../components/ui.jsx";
 import TimelineList from "../components/TimelineList.jsx";
 import timeline from "../data/timeline.js";
@@ -31,18 +32,20 @@ export default function Home() {
           <div className="mt-4">
             <Button to="/biography#bio">Read more</Button>
           </div>
-        </Card>
-           <TimelineList items={timeline.slice(0, 4)}  />
-
+          </Card>
+          
           {/* Timeline preview */}
+          <TimelineList items={timeline.slice(0, 4)}  />
         </div>
       </Section>
 
+      <Hero2 />
+
       <NumbersBanner
-        bg="/pictures/mb arrest pak.jpg" // or any URL
+        bg="/pictures/MBnum.jpg" // or any URL
         title=""
         targets={{
-        petitions: 12500,                // Petition signs
+        petitions: 125000,                // Petition signs
         daysInJail: daysSince("1984-02-11"), // Auto-updating days in jail
         fabricatedCases: 5,              // Fabricated cases
       }}
