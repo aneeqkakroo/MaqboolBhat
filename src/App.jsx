@@ -12,6 +12,7 @@ import Resources from "./pages/Resources.jsx";
 import GetInvolved from "./pages/GetInvolved.jsx";
 import Bio from "./pages/Biography.jsx";
 import LatestUpdates from "./pages/LatestUpdates.jsx";
+import Quotations from "./pages/Quotations.jsx";
 import SocialMedia from "./pages/SocialMedia.jsx";
 
 // Optional: simple 404 component
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/media" element={<Media />} />
           <Route path="/updates" element={<LatestUpdates />} />
           <Route path="/socialmedia" element={<SocialMedia />} />
+          <Route path="/quotes" element={<Quotations />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/biography" element={<Bio />} />

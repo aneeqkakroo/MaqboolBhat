@@ -14,6 +14,7 @@ const navItems = [
       { to: "/updates", label: "Latest Updates" },
       { to: "/socialmedia", label: "Social Media Highlights" },
       { to: "/media", label: "Media Archive" },
+      { to: "/quotes", label: "Quotations" },
     ],
   },
 

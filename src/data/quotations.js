@@ -1,0 +1,55 @@
+// src/data/latestUpdates.js
+// Add/update items here
+// media.type: "image" | "video" | "youtube"
+export default [
+  {
+    id: "u1",
+    title: "Dr. Rick Halperin takes notice of Yasin Malik Case",
+    desc: "Dr. Rick Halperin, Director of Human Rights program at Southern Methodist University, Dallas Texas, USA is renowned activist against death penalty.",
+    date: "2025-08-28",
+    location: "Dallas, TX, USA",
+    media: { type: "youtube", url: "https://www.youtube.com/shorts/ikjJJtTmpa0" },
+    button: "Watch",
+    link: "https://www.youtube.com/shorts/ikjJJtTmpa0",
+  },
+  {
+    id: "u2",
+    title: "JKLF organized “Save Yasin malik Conference” in Islamabad.",
+    desc: "Kashmiri leaders declared Yasin Malik as a national political and revolutionary leader of the State. Indian attempt to portray him as a terrorist is doomed to fail. Indo-Pak leaders have acknowledged his political role in freedom movement of JK.",
+    date: "2025-08-27",
+    location: "Islamabad, PK",
+    media: { type: "image", src: "/pictures/islamabad conference.jpg" },
+    button: "Read More",
+    link: "https://www.facebook.com/muhammad.r.dar/posts/pfbid06ZUFj1TUvduK7qJZWaBynkuuoBi6QgNUwwYzVZPGc2XELtz8ovVxwqKdaLEynhJpl",
+  },
+  {
+    id: "u3",
+    title: "From Peacemaker to Prisoner: Yasin Malik Tells Story of Secret State Ties and Betrayal-I",
+    desc: "In a striking affidavit, Malik recounts meetings with prime ministers, Ambani, intelligence chiefs and even Hafiz Saeed at IB’s request, claiming promises of peace were later broken after Article 370’s abrogation.",
+    date: "2025-09-16",
+    location: "Jammu, JK",
+    media: { type: "image", src: "https://media.assettype.com/kashmirtimes%2F2025-09-17%2Foipe2qdw%2FA-file-photo-of-Jammu-and-Kashmir-Liberation-Front-chairman-Yasin-Malik-being-taken-for-a-court-appearance.jpg?w=1024&auto=format%2Ccompress&fit=max" },
+    button: "Read More",
+    link: "https://kashmirtimes.com/news/from-peacemaker-to-prisoner-yasin-malik-tells-story-of-secret-state-ties-and-betrayal-i",
+  },
+  {
+    id: "u4",
+    title: "From 'State Guest' to ‘Terrorist’ In A Week: Yasin Malik’s chilling affidavit-II",
+    desc: "In a sworn testimony, the jailed JKLF leader narrates how a dinnertime call from police led to his arrest, how he was first assured he was a “state guest,” then booked under the Public Safety Act and handed to the NIA.",
+    date: "2025-09-19",
+    location: "Jammu, JK",
+    media: { type: "image", src: "https://media.assettype.com/kashmirtimes%2F2025-09-17%2F0gwikof0%2FYasin-Malik-JKLF-Chairman.jpg?w=1024&auto=format%2Ccompress&fit=max" },
+    button: "Read More",
+    link: "https://kashmirtimes.com/news/from-state-guest-to-terrorist-in-a-week-yasin-maliks-chilling-affidavit-ii",
+  },
+  {
+    id: "u5",
+    title: "Yasin Malik's affidavit reveals ties with RSS leaders, visits from Shankaracharyas-III",
+    desc: "Perhaps the most surprising section of Malik’s affidavit is his description of sustained dialogue with the leadership of the RSS, the ideological parent of the ruling Bharatiya Janata Party.",
+    date: "2025-09-19",
+    location: "Jammu, JK",
+    media: { type: "image", src: "https://media.assettype.com/kashmirtimes%2Fimport%2Fwp-content%2Fuploads%2F2024%2F11%2FJKLF-Leader-Yasin-Malik-Credit-R-V-Moorthy-HIndu.jpg?w=1024&auto=format%2Ccompress&fit=max" },
+    button: "Read More",
+    link: "https://kashmirtimes.com/news/yasin-maliks-affidavit-reveals-ties-with-rss-leaders-visits-from-shankaracharyas-iii",
+  },
+];

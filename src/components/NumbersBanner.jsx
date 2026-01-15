@@ -83,7 +83,7 @@ export default function NumbersBanner({
     () => [
       { label: "Petition signs for demanding remains of Maqbool Bhat Shaheed", value: targets.petitions, suffix: "+" },
       { label: "Days since Maqbool Bhat’s remains have been unlawfully withheld", value: targets.daysInJail },
-      { label: "Fabricated politicaly motivated cases", value: targets.fabricatedCases },
+      { label: "Death Sentences", value: targets.fabricatedCases },
     ],
     [targets]
   );

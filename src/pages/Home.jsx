@@ -1,5 +1,6 @@
 import Hero from "../components/Hero.jsx";
 import Hero2 from "../components/Hero2.jsx";
+import QuoteBlock from "../components/QuoteBlock.jsx"
 import { Section, Card, Button} from "../components/ui.jsx";
 import TimelineList from "../components/TimelineList.jsx";
 import timeline from "../data/timeline.js";
@@ -41,13 +42,22 @@ export default function Home() {
 
       <Hero2 />
 
+        <QuoteBlock
+          image="/pictures/media/6.jpg"
+          quote="My crime was to rise in rebellion in Kashmir—against oppression, injustice, moral decay, greed, and the forces that feed on exploitation."
+          urduQuote="میں کشمیر میں جبر، ظلم، فرسودگی، دولت پسندی اور استحصالی قوتوں کے خلاف بغاوت کا مرتکب ہوا ہوں"
+          author="Maqbool Bhat"
+          align="right"
+        />
+
+
       <NumbersBanner
         bg="/pictures/MBnum.jpg" // or any URL
         title=""
         targets={{
         petitions: 125000,                // Petition signs
         daysInJail: daysSince("1984-02-11"), // Auto-updating days in jail
-        fabricatedCases: 5,              // Fabricated cases
+        fabricatedCases: 2,              // Fabricated cases
       }}
       />
     </>
