@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import { Section, Card, Button } from "../components/ui.jsx";
 import TimelineList from "../components/TimelineList.jsx";
 import timeline from "../data/timeline.js";
@@ -39,6 +41,9 @@ export default function About() {
             <li>• Foundational Role in Kashmiri Nationalism</li>
             <li>• Unwavering Commitment Despite Repression</li>
             <li>• Enduring Symbolic and Ideological Legacy</li>
+            <li>• Che Guvera of Kashmir</li>
+            <li>• Baghat Singh of Kashmir</li>
+            <li>• Omar Mukhtar of Valley</li>
           </ul>
         </Card>
       </div>
@@ -95,20 +100,51 @@ export default function About() {
   </div>
 </Card>
 
-
+  {/* Youtube Embed */}
    <Card className="!p-0 overflow-hidden">
-  <div className="grid grid-rows-[auto_1fr] h-[380px]">
-    <h4 className="px-4 pt-4 pb-2 text-lg font-semibold text-white">
-      Who is Maqbool Bhat?
-    </h4>
-    <YouTubeEmbed
-      url="https://youtu.be/543eB6Qa5QM"
-      title="Che of Kashmir"
-      cover
-      className="!rounded-none !border-0"
-    />
-  </div>
-</Card>
+    <div className="grid grid-rows-[auto_1fr] h-[380px]">
+      <h4 className="px-4 pt-4 pb-2 text-lg font-semibold text-white">
+        Who is Maqbool Bhat?
+      </h4>
+      <YouTubeEmbed
+        url="https://youtu.be/543eB6Qa5QM"
+        title="Che of Kashmir"
+        cover
+        className="!rounded-none !border-0"
+      />
+    </div>
+  </Card>
+
+  {/* Youtube Embed */}
+  <Card className="!p-0 overflow-hidden">
+    <div className="grid grid-rows-[auto_1fr] h-[380px]">
+      <h4 className="px-4 pt-4 pb-2 text-lg font-semibold text-white">
+        BBC Documentry on Maqbool Bhat?
+      </h4>
+      <YouTubeEmbed
+        url="https://youtu.be/PRciSt39dhI"
+        title="Maqbool Bhat | BBC Hindi"
+        cover
+        className="!rounded-none !border-0"
+      />
+    </div>
+  </Card>
+
+  
+  {/* Youtube Embed */}
+  <Card className="!p-0 overflow-hidden">
+    <div className="grid grid-rows-[auto_1fr] h-[380px]">
+      <h4 className="px-4 pt-4 pb-2 text-lg font-semibold text-white">
+        Bring Him Back | JKTV
+      </h4>
+      <YouTubeEmbed
+        url="https://youtu.be/kML-Vv-LTx8?t=81"
+        title="Maqbool Bhat | BBC Hindi"
+        cover
+        className="!rounded-none !border-0"
+      />
+    </div>
+  </Card>
 
 
 
@@ -116,8 +152,8 @@ export default function About() {
     <Card className="p-6">
       <h4 className="text-lg font-semibold text-white mb-4">Related Links</h4>
       <ul className="list-disc ml-4 text-white/80 text-sm space-y-1">
-        <li><a href="#" className="hover:underline">Books Written on Maqbool Bhat Shaheed</a></li>
-        <li><a href="#" className="hover:underline">Media Archives of Maqbool Bhat Shaheed</a></li>
+        <li><Link to="/resources" className="hover:underline">Books Written on Maqbool Bhat Shaheed</Link></li>
+        <li><Link to="/media" className="hover:underline">Media Archives of Maqbool Bhat Shaheed</Link></li>
       </ul>
     </Card>
   </div>
