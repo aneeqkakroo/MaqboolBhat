@@ -1,24 +1,13 @@
 export default [
   {
-    id: "r1",
-    type: "Book",
-    title: "Escape from Srinagar Jail",
-    href: "../resources/Yasin Malik Biography by Sardar Aftab.pdf",
-    meta: "Maqbool Bhat",
-  },
-  {
-    id: "r2",
-    type: "Collection of Letters",
-    title: "Shaur-e-Farda",
-    href: "../resources/Yasin Malik Profile by Rafiq Dar.pdf",
-    meta: "Maqbool Bhat",
-  },
-  {
-    id: "r3",
-    type: "Collection of Memoirs",
-    title: "Mera Quaid, Mera Rehbar",
-    href: "../resources/Briefing Paper by Azmat Khan.pdf",
-    meta: "Saeed Asad",
-  },
+  id: "letter-1",
+  type: "Letter",
+  title: "Maqbool to G. M. Mufti",
+  from: "Maqbool Bhat",
+  to: "G. M. Mufti",
+  date: "17 August 1959",
+  format: "md",
+  href: "/resources/letters/Letter1.md",
+  desc: "A personal letter written from Peshawar to G. M. Mufti, discussing personal circumstances, career uncertainty, and advice regarding marriage."
+},
 ];
-
