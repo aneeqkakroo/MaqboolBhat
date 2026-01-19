@@ -18,7 +18,18 @@ const navItems = [
     ],
   },
 
-  { to: "/resources", label: "Resources" },
+    // Resources
+  {
+    label: "Resources",
+    children: [
+      { to: "/resources", label: "Resources" },
+      { to: "/resources/books", label: "Books" },
+      { to: "/resources/articles", label: "Articles" },
+      { to: "/resources/videos", label: "Videos" },
+      { to: "/resources/letters", label: "Letters" },
+      { to: "/resources/memoires", label: "Memoirs" },
+    ],
+  },
   { to: "/get-involved", label: "Take Action!", cta: true },
 ];
 

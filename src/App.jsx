@@ -8,12 +8,18 @@ import { Analytics } from '@vercel/analytics/react';
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Media from "./pages/Media.jsx";
-import Resources from "./pages/Resources.jsx";
 import GetInvolved from "./pages/GetInvolved.jsx";
 import Bio from "./pages/Biography.jsx";
 import LatestUpdates from "./pages/LatestUpdates.jsx";
 import Quotations from "./pages/Quotations.jsx";
 import SocialMedia from "./pages/SocialMedia.jsx";
+  //Resource
+import ResourcesHome from "./pages/Resource/ResourcesHome.jsx";
+import Books from "./pages/Resource/Books.jsx";
+import Articles from "./pages/Resource/Articles.jsx";
+import Videos from "./pages/Resource/Videos.jsx";
+import Letters from "./pages/Resource/Letters.jsx";
+import Memoires from "./pages/Resource/Memoires.jsx";
 
 // Optional: simple 404 component
 function NotFound() {
@@ -41,9 +47,15 @@ export default function App() {
           <Route path="/updates" element={<LatestUpdates />} />
           <Route path="/socialmedia" element={<SocialMedia />} />
           <Route path="/quotes" element={<Quotations />} />
-          <Route path="/resources" element={<Resources />} />
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/biography" element={<Bio />} />
+          
+          <Route path="/resources" element={<ResourcesHome />} />
+          <Route path="/resources/books" element={<Books />} />
+          <Route path="/resources/articles" element={<Articles />} />
+          <Route path="/resources/videos" element={<Videos />} />
+          <Route path="/resources/letters" element={<Letters />} />
+          <Route path="/resources/memoires" element={<Memoires />} />
         
           <Route path="*" element={<NotFound />} />
         </Routes>
